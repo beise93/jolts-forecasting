@@ -11,7 +11,7 @@ output:
 fontsize: 11pt
 ---
 
-  ```{r include = FALSE}
+```{r include = FALSE}
 library(knitr)
 library(lmtest)
 library(ggplot2)
@@ -38,7 +38,7 @@ sapphire <- "#255F85"
 ggthemr('fresh')
 ```
 
-  ```{r include = FALSE}
+```{r include = FALSE}
   # FRED API Key
 fredr_set_key("5feffa6d832eea67340b601a7e183d01")
 
@@ -140,7 +140,7 @@ One of the most striking indicators from today’s report is the job seekers rat
 ```
 
 
-# Methods
+## Methods
 
 We produce forecasts using a collection of traditional and non-traditional time series methods. This section provides a general overview of the methods used, their benefits, and their limitations. It cannot be emphasized enough that, no matter the strength of a model, it remains exactly that:  a model. As such, all statistical models are “wrong.” No matter the method used, any model is attempt to reproduce (“model”) the true data generating process of a data series. 
 
